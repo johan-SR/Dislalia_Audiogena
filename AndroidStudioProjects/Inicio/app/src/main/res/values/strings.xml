@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Inicio</string>
+    <string name="misproyectos">Mis Proyectos</string>
+    <string name="subirproyecctos">Subir Proyectos</string>
+    <string name="notificacion">Notificacion</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="nombrepro">Nombre Proyecto</string>
+    <string name="descricionpro">Por favor inserte una descripcion del proyecto que desea mostrar</string>
+    <string name="SubirImagen">Subir imagen</string>{
+    <string name="Subir">Subir</string>
+</resources>

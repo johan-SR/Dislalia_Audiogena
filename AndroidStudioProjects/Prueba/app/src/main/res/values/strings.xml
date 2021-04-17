@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="txtv_res">Resultado</string>
+    <string name="txtv1">Valor 1</string>
+    <string name="txtv2">Valor 2</string>
+    <string name="btnsuma">Sumar</string>
+    <string name="txtsprueba">Prueba</string>
+</resources>

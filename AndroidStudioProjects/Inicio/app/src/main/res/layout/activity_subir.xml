@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash"
+    tools:context=".SubirActivity">
+
+    <ImageView
+        android:id="@+id/improyecto"
+        android:layout_width="210dp"
+        android:layout_height="281dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtnombrepro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746"
+        android:onClick="Subir"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <EditText
+        android:id="@+id/txtnombrepro"
+        android:layout_width="263dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/nombrepro"
+        android:inputType="textPersonName"
+        android:textColorHint="#FBF9F6"
+        app:layout_constraintBottom_toTopOf="@+id/txtdescrippro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtdescrippro"
+        android:layout_width="258dp"
+        android:layout_height="236dp"
+        android:layout_marginBottom="92dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/descricionpro"
+        android:inputType="textMultiLine"
+        android:textColorHint="#F1F0EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textVSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SubirImagen"
+        app:layout_constraintEnd_toEndOf="@+id/improyecto"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/improyecto"
+        app:layout_constraintTop_toTopOf="@+id/improyecto" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/Subir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

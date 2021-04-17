@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appaps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".ListaActivity"/>
+        <activity android:name=".MiproyectoActivity"/>
+        <activity android:name=".Registro2Activity" />
+        <activity android:name=".LoginStudent" />
+        <activity android:name=".PrincipalActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".LoginCompany" />
+        <activity android:name=".MainInicio" />
+        <activity android:name=".SubirActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

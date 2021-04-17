@@ -1,0 +1,536 @@
+﻿Log file open, 04/14/21 13:57:38
+AppSettings: Version: 12.1.5-15939433+++Portal+Release-Live
+AppSettings: CommandLine: "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\..\..\..\Portal\Binaries\Win64\EpicGamesLauncher.exe" 
+AppSettings: RunningCommandlet: false
+AppSettings: ForwardMessage: false
+AppSettings: ForcedRestart: false
+AppSettings: bAllowMultipleInstances: false
+AppSettings: bBootstrap: false
+AppSettings: bSilent: false
+AppSettings: bForceDeprecated: false
+AppSettings: bDoesCompiledPlatformMatch: true
+AppSettings: bIsUnattended: false
+AppSettings: bAllowFullAppTesting: false
+AppSettings: bIsExecutingAutomation: false
+AppSettings: Mode: default
+LogInit: WinPlatform: User is admin: true
+LogInit: WinPlatform: Process ran as admin: false
+LogInit: WinPlatform: Process is elevated: false
+LogInit: WinPlatform: Process integrity level: Medium
+LogInit: WinPlatform: Running 64bit App: true
+LogInit: WinPlatform: Running 64bit OS: true
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 10 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Build: 12.1.5-15939433+++Portal+Release-Live
+LogInit: Engine Version: 4.23.0-15939433+++Portal+Release-Live
+LogInit: Compatible Engine Version: 4.23.0-15939433+++Portal+Release-Live
+LogInit: Net CL: 15939433
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz, GPU: Intel(R) Iris(R) Plus Graphics
+LogInit: Compiled (64-bit): Apr  7 2021 12:35:49
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++Portal+Release-Live
+LogInit: Display: Command Line: "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\..\..\..\Portal\Binaries\Win64\EpicGamesLauncher.exe"  -SaveToUserDir -Messaging -enablehighdpi
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Config/Windows/Engine.ini]
+[2021.04.14-18.57.39:017][  0]LogInit: Computer: ANDRES-PC
+[2021.04.14-18.57.39:017][  0]LogInit: User: andre
+[2021.04.14-18.57.39:017][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.14-18.57.39:017][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.14-18.57.39:017][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2021.04.14-18.57.39:017][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.14-18.57.39:017][  0]LogMemory: Process Physical Memory: 26.01 MB used, 26.01 MB peak
+[2021.04.14-18.57.39:017][  0]LogMemory: Process Virtual Memory: 49.98 MB used, 49.98 MB peak
+[2021.04.14-18.57.39:017][  0]LogMemory: Physical Memory: 4936.25 MB used,  3009.73 MB free, 7945.98 MB total
+[2021.04.14-18.57.39:017][  0]LogMemory: Virtual Memory: 4326.84 MB used,  134213400.00 MB free, 134217728.00 MB total
+[2021.04.14-18.57.39:079][  0]LogAssetRegistry: FAssetRegistry took 0.0013 seconds to start up
+[2021.04.14-18.57.39:080][  0]LogUObjectArray: 2411 objects as part of root set at end of initial load.
+[2021.04.14-18.57.39:080][  0]LogUObjectAllocator: 355504 out of 0 bytes used by permanent object pool.
+[2021.04.14-18.57.39:080][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.14-18.57.39:081][  0]LogInit: Using OS detected language (es-MX).
+[2021.04.14-18.57.39:081][  0]LogInit: Using OS detected locale (es-CO).
+[2021.04.14-18.57.39:084][  0]LogInit: Using OS detected language (es-MX).
+[2021.04.14-18.57.39:084][  0]LogInit: Using OS detected locale (es-CO).
+[2021.04.14-18.57.39:094][  0]LogTextLocalizationManager: Compacting localization data took   0.16ms
+[2021.04.14-18.57.39:096][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 2 prioritized culture(s) in 0.000589 seconds
+[2021.04.14-18.57.39:111][  0]LogTaskGraph: Started task graph with 4 named threads and 10 total threads with 1 sets of task threads.
+[2021.04.14-18.57.39:268][  0]LogInit: Using libcurl 7.55.1-DEV
+[2021.04.14-18.57.39:268][  0]LogInit:  - built for x86_64-pc-win32
+[2021.04.14-18.57.39:268][  0]LogInit:  - supports SSL with OpenSSL/1.1.1
+[2021.04.14-18.57.39:268][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2021.04.14-18.57.39:268][  0]LogInit:  - other features:
+[2021.04.14-18.57.39:268][  0]LogInit:      CURL_VERSION_SSL
+[2021.04.14-18.57.39:268][  0]LogInit:      CURL_VERSION_LIBZ
+[2021.04.14-18.57.39:268][  0]LogInit:      CURL_VERSION_IPV6
+[2021.04.14-18.57.39:268][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2021.04.14-18.57.39:268][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2021.04.14-18.57.39:268][  0]LogInit:      CURL_VERSION_IDN
+[2021.04.14-18.57.39:269][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2021.04.14-18.57.39:269][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2021.04.14-18.57.39:269][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2021.04.14-18.57.39:269][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2021.04.14-18.57.39:269][  0]LogInit:  - MaxHostConnections = 0  - Libcurl will NOT limit the number of connections to a host
+[2021.04.14-18.57.39:269][  0]LogInit:  - LocalHostAddr = Default
+[2021.04.14-18.57.39:269][  0]LogInit:  - BufferSize = 65536
+[2021.04.14-18.57.39:794][  0]LogSlate: Using FreeType 2.6.0
+[2021.04.14-18.57.39:796][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.14-18.57.39:812][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.14-18.57.39:812][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.14-18.57.40:023][  0]Portal: Constructing App Data Access Layer
+[2021.04.14-18.57.40:035][  0]LogBuildInfoRepository: Using LauncherLabel Live-EternalKnight
+[2021.04.14-18.57.40:131][  0]LogSelfUpdateService: Initialising for EpicGamesLauncher 12.1.5-15939433+++Portal+Release-Live-Windows.
+[2021.04.14-18.57.40:183][  0]LogStreaming: Warning: Failed to read file 'C:/ProgramData/Epic/EpicGamesLauncher/Data/LauncherUpdate.manifest' error.
+[2021.04.14-18.57.40:183][  0]LogGeForceNowManager: GeForceNow SDK initialized: 1
+[2021.04.14-18.57.40:183][  0]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.04.14-18.57.40:185][  0]Portal: Constructing App Domain Layer
+[2021.04.14-18.57.40:211][  0]LogWebBrowser: Registering ContextId=TEMP.
+[2021.04.14-18.57.40:241][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealEngineLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:249][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:249][  0]WinPlatform: Found matching shortcut: false
+[2021.04.14-18.57.40:249][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:249][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:249][  0]WinPlatform: Found matching shortcut: false
+[2021.04.14-18.57.40:249][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:251][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:251][  0]WinPlatform: Found matching shortcut: false
+[2021.04.14-18.57.40:251][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:251][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:251][  0]WinPlatform: Found matching shortcut: true
+[2021.04.14-18.57.40:251][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealEngineLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:252][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:252][  0]WinPlatform: Found matching shortcut: false
+[2021.04.14-18.57.40:252][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:252][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:252][  0]WinPlatform: Found matching shortcut: false
+[2021.04.14-18.57.40:252][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:252][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:252][  0]WinPlatform: Found matching shortcut: false
+[2021.04.14-18.57.40:252][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.04.14-18.57.40:254][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.04.14-18.57.40:254][  0]WinPlatform: Found matching shortcut: true
+[2021.04.14-18.57.40:271][  0]LogCommunityPortalAppManager: FCommunityPortalEnumerateInstalledRunnable: Discovered 0 item files.
+[2021.04.14-18.57.40:271][  0]LogCommunityPortalAppManager: FCommunityPortalEnumerateInstalledRunnable: Loaded 0 sidecars in 0.0 secs
+[2021.04.14-18.57.40:271][  0]LogEOSInstallService: Detected valid EOS installation at path C:\Program Files (x86)\Epic Games\Epic Online Services\service\EpicOnlineServicesHost.exe.
+[2021.04.14-18.57.40:271][  0]LogEOSInstallService: EOS detected during initialization: true.
+[2021.04.14-18.57.40:483][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.04.14-18.57.40:723][  0]Portal: Constructing App Presentation Layer
+[2021.04.14-18.57.40:731][  0]FCommunityPortalManagerImpl::SetUnrealEnginePortalViewModel UEPVM:2
+[2021.04.14-18.57.40:732][  0]Portal: Constructing App UI Layer
+[2021.04.14-18.57.40:756][  1]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.04.14-18.57.40:861][  4]FCommunityPortalManagerImpl: Change State CPManagerState_Init->CPManagerState_UserLogin
+[2021.04.14-18.57.40:861][  4][SignInRouter] GoToUrl('/id/login')
+[2021.04.14-18.57.40:861][  4][SignInRouter]    Resolved To: '/id/login'
+[2021.04.14-18.57.40:861][  4][SignInRouter]    Best Match: epic-login
+[2021.04.14-18.57.40:883][  4]SCommunityPortalMainImpl::Construct UEPVM:4
+[2021.04.14-18.57.40:955][  4]~SCommunityPortalMainImpl UEPVM:2
+[2021.04.14-18.57.40:955][  4][SignInRouter]    Canceling in progress navigation. New command issued.
+[2021.04.14-18.57.40:955][  4][SignInRouter]    Navigation Canceled.
+[2021.04.14-18.57.40:955][  4][SignInRouter] GoToUrl('/id/login')
+[2021.04.14-18.57.40:955][  4][SignInRouter]    Resolved To: '/id/login'
+[2021.04.14-18.57.40:955][  4][SignInRouter]    Best Match: epic-login
+[2021.04.14-18.57.40:967][  5]FCommunityPortalManagerImpl: Change State CPManagerState_UserLogin->CPManagerState_SelfUpdateCheck
+[2021.04.14-18.57.41:670][ 26]LogSelfUpdateService: Launcher build response 12.1.5-15939433+++Portal+Release-Live-Windows.
+[2021.04.14-18.57.41:670][ 26]LogSelfUpdateService: Launcher is up-to-date with the latest available version.
+[2021.04.14-18.57.41:670][ 26]LogSelfUpdateService: Waiting for next version update.
+[2021.04.14-18.57.41:670][ 26]LogEmsContentProvider: Content build response ++Portal+Main+prod-CL-15958864-Windows.
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: InstallerId: 51211B4145D3CD80CA6F6C9365010D80
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: ActionType: Repair
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CurrentManifest: EpicGamesLauncherContent ++Portal+Main+prod-CL-15958864-Windows (Fuga740unjJSt6fzJa878spBHqY)
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: InstallManifest: EpicGamesLauncherContent ++Portal+Main+prod-CL-15958864-Windows (Fuga740unjJSt6fzJa878spBHqY)
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: InstallTags: 
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: ValidTags: 
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: InstallDirectory: C:/ProgramData/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: StagingDirectory: C:/ProgramData/Epic/EpicGamesLauncher/Data/EMS/stage/
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: BackupDirectory: 
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CloudDirectories: http://download.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CloudDirectories: http://download2.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CloudDirectories: http://download3.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CloudDirectories: http://download4.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CloudDirectories: http://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/CloudDir
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: CloudDirectories: http://fastly-download.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: InstallMode: NonDestructiveInstall
+[2021.04.14-18.57.41:682][ 26]LogBuildPatchServices: Build Config: VerifyMode: ShaVerifyAllFiles
+[2021.04.14-18.57.41:683][ 26]LogBuildPatchServices: Build Config: DeltaPolicy: Skip
+[2021.04.14-18.57.41:683][ 26]LogBuildPatchServices: Build Config: bRunRequiredPrereqs: true
+[2021.04.14-18.57.41:683][ 26]LogBuildPatchServices: Build Config: bAllowConcurrentExecution: false
+[2021.04.14-18.57.41:683][ 26]LogBuildPatchServices: Build Config: DownloadRateLimitBps: 0
+[2021.04.14-18.57.41:683][ 26]LogEmsContentProvider: Installer started.
+[2021.04.14-18.57.41:736][ 28]LogBuildPatchServices: Starting Installation
+[2021.04.14-18.57.41:769][ 29]FCommunityPortalManagerImpl: Change State CPManagerState_SelfUpdateCheck->CPManagerState_WaitEms
+[2021.04.14-18.57.41:813][ 30]LogBuildPatchServices: Requiring 0 files
+[2021.04.14-18.57.41:814][ 30]LogWebBrowser: Creating browser for ContextId=TEMP.
+[2021.04.14-18.57.42:897][ 61]BuildPatchResumeData file found: false
+[2021.04.14-18.57.42:897][ 61]LogBuildPatchServices: Performing a repair operation
+[2021.04.14-18.57.42:897][ 61]LogBuildPatchServices: File construction complete
+[2021.04.14-18.57.42:897][ 61]LogBuildPatchServices: Staged install complete
+[2021.04.14-18.57.42:897][ 61]LogBuildPatchServices: Running backup and stage relocation
+[2021.04.14-18.57.42:929][ 62]LogBuildPatchServices: Relocation complete 1
+[2021.04.14-18.57.43:062][ 66]LogBuildPatchServices: Verifying install
+[2021.04.14-18.57.43:629][ 83]LogBuildPatchServices: Verify stage complete 1
+[2021.04.14-18.57.43:629][ 83]LogBuildPatchServices: Deleting staging area.
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Reset MM.
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: InstallerId: 51211B4145D3CD80CA6F6C9365010D80
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumFilesInBuild: 514
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumFilesOutdated: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumFilesToRemove: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumChunksRequired: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: ChunksQueuedForDownload: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: ChunksLocallyAvailable: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: ChunksInChunkDbs: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumChunksDownloaded: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumChunksRecycled: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumChunksReadFromChunkDbs: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumFailedDownloads: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumBadDownloads: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumAbortedDownloads: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumRecycleFailures: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumChunksStoreBooted: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumDriveStoreChunkLoads: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumDriveStoreLoadFailures: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: NumChunkDbChunksFailed: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: TotalDownloadedData: 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: ActiveRequestCountPeak : 0
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: AverageDownloadSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: PeakDownloadSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.04.14-18.57.43:652][ 84]LogBuildPatchServices: Build Stat: TotalReadData: 88126516
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: AverageDiskReadSpeed: 174.690.910,936 bytes (174,69 MB, 166,598 MiB) /sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: PeakDiskReadSpeed: 174.690.910,936 bytes (174,69 MB, 166,598 MiB) /sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: TotalWrittenData: 0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: AverageDiskWriteSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: PeakDiskWriteSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: NumFilesConstructed: 0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: InitializeTime: 1.21 sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: TheoreticalDownloadTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ConstructTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: MoveFromStageTime: 17 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: FileAttributesTime: 143 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: VerifyTime: 574 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: CleanUpTime: 6 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: PrereqTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ProcessPausedTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ProcessActiveTime: 1.96 sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ProcessExecuteTime: 1.96 sec
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ProcessSuccess: TRUE
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ErrorCode: OK
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: FailureReasonText: The operation was successful.
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: FailureType: SUCCESS
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: NumInstallRetries: 0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: FinalProgressValue: 1.000000
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: OverallRequestSuccessRate: 0.000000
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ExcellentDownloadHealthTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: GoodDownloadHealthTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: OkDownloadHealthTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: PoorDownloadHealthTime: 31 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: DisconnectedDownloadHealthTime: 0 ms
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: AverageMemoryStoreUse: 0.0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: PeakMemoryStoreUse: 0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: AverageMemoryStoreRetained: 0.0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: PeakMemoryStoreRetained: 0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: MemoryStoreSize: 336
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ProcessRequiredDiskSpace: 0
+[2021.04.14-18.57.43:653][ 84]LogBuildPatchServices: Build Stat: ProcessAvailableDiskSpace: 0
+[2021.04.14-18.57.43:653][ 84]LogEmsContentProvider: Installer complete. Success:1.
+[2021.04.14-18.57.43:662][ 84]LogEmsContentProvider: Waiting for next version update.
+[2021.04.14-18.57.43:729][ 86]FAccountService::AutoSignIn
+[2021.04.14-18.57.43:730][ 86]LogOnlineIdentity: OSS: Sending Login request. url=https://account-public-service-prod03.ol.epicgames.com/account, type=refresh, id=[REDACTED]
+[2021.04.14-18.57.43:730][ 86]FCommunityPortalManagerImpl: Change State CPManagerState_WaitEms->CPManagerState_LoggingIn
+[2021.04.14-18.57.43:923][ 92]LogOnlineIdentity: OSS: FOnlineIdentityMcp::HandleXmppConnectionCreated
+[2021.04.14-18.57.44:619][113]LogWebView: react-i18next:: i18n.languages were undefined or empty undefined
+[2021.04.14-18.57.44:862][120][SignInRouter]    Navigation Complete.
+[2021.04.14-18.57.45:526][140]FAccountService::OnLoginComplete - 0 TRUE 0873eddab43648eaa96b7ff351305629 
+[2021.04.14-18.57.45:527][140]Portal: Constructing User Data Access Layer
+[2021.04.14-18.57.45:527][140]Portal: Constructing User Domain Layer
+[2021.04.14-18.57.45:559][140]LogWebBrowser: Registering ContextId=userdomain.
+[2021.04.14-18.57.45:581][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(7cdcc11febb24c7a89058580d7d35d95) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(9f36fa5c0acd4392b903e622a8339de0) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(20c1539905fd466b8b821ce48f8b8c95) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(388bd31c3dec4df8b525fc4405bae616) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(ba03e8dfc19e45b1a370f07ed399c887) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(1b576785bf00473daa66eb078a57a32e) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(60da1f4fc5c6425e8d528919af40459a) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(db2ac028dc1844f0a6ef62f9c5daee42) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(a0230f273974460c8b5f7975350d20f1) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:582][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(a6e024a657f84d4b976e5d7990c81bce) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:583][140]LogPortalCatalog: Error: FItemRepository(poodle)::RequestById(7b443be3671842eeb181cc61facfe301) - Request for Item unfulfilled because neither an enumeration has happened or on demand mode been enabled.
+[2021.04.14-18.57.45:603][140]Portal: Constructing User Presentation Layer
+[2021.04.14-18.57.45:803][140]Portal: Constructing User UI Layer
+[2021.04.14-18.57.45:804][140]FUnrealEnginePortalViewModelImple_UpdateLauncherViewModel: LauncherViewModel is valid
+[2021.04.14-18.57.45:805][140]FAccountService::OnLoginChanged - LoggedIn 0
+[2021.04.14-18.57.45:807][140]LogOnlineParty: OSS: FOnlinePartySystemMcp::OnXmppLoginChanged - logged in user 0873eddab43648eaa96b7ff351305629
+[2021.04.14-18.57.45:807][140]LogOnlineIdentity: OSS: FOnlineIdentityMcp::OnXmppLoginChanged 0873eddab43648eaa96b7ff351305629:prod.ol.epicgames.com:V2:launcher:WIN::E479147F4207DDDBD1297DB70D1D3A86 loggedin
+[2021.04.14-18.57.45:891][141]FCommunityPortalManagerImpl: Change State CPManagerState_LoggingIn->CPManagerState_LaunchWebSession
+[2021.04.14-18.57.46:083][147]FCommunityPortalManagerImpl: Change State CPManagerState_LaunchWebSession->CPManagerState_LaunchInfo
+[2021.04.14-18.57.46:549][161]LogAutoUpdateService: CheckForUpdates: Service isn't ready to update yet: CanAutoUpdate: 0, AutoUpdatesEnabled: 1
+[2021.04.14-18.57.47:390][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:391][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:391][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:392][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:392][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:393][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:393][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.47:394][186]LogJson: Warning: Field name was not found.
+[2021.04.14-18.57.47:394][186]LogJson: Error: Json Value of type 'Null' used as a 'String'.
+[2021.04.14-18.57.48:090][207][MainRouter] GoToUrl('[epic_store]')
+[2021.04.14-18.57.48:090][207][MainRouter]    Resolved To: '/store/es-MX/'
+[2021.04.14-18.57.48:090][207][MainRouter]    Best Match: app
+[2021.04.14-18.57.48:090][207]LogWebBrowser: Creating browser for ContextId=userdomain.
+[2021.04.14-18.57.48:128][207]FCommunityPortalManagerImpl: Change State CPManagerState_LaunchInfo->CPManagerState_Launch
+[2021.04.14-18.57.48:149][207]SCommunityPortalMainImpl::Construct UEPVM:4
+[2021.04.14-18.57.48:149][207][SignInRouter] GoToUrl('/null')
+[2021.04.14-18.57.48:149][207][SignInRouter]    Resolved To: '/null'
+[2021.04.14-18.57.48:149][207][SignInRouter]    Best Match: null
+[2021.04.14-18.57.48:149][207]LogWebBrowser: Deleting browser for Url=https://www.epicgames.com/id/login/welcome.
+[2021.04.14-18.57.48:149][207][SignInRouter]    Navigation Complete.
+[2021.04.14-18.57.49:906][260]LogWebView: loaded page with correlation id 4d51e070-9d53-11eb-8e93-4d63c41bbc73
+[2021.04.14-18.57.50:174][268]LogWebView: Unsatisfied version 16.14.0 of shared singleton module react (required * =16.8.0)
+[2021.04.14-18.57.50:174][268]LogWebView: Unsatisfied version 16.14.0 of shared singleton module react (required >=^16.0.0)
+[2021.04.14-18.57.50:174][268]LogWebView: Unsatisfied version 16.14.0 of shared singleton module react (required ^15.5.4)
+[2021.04.14-18.57.52:170][328]LogWebView: Launcher Integration configured for Launcher
+[2021.04.14-18.57.52:170][328]LogWebView: Lower-casing object properties on root.ue
+[2021.04.14-18.57.52:469][337]LogWebView: loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side
+[2021.04.14-18.57.52:637][342]LogWebView: Sentry Logger [Log]: Integration installed: InboundFilters
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Integration installed: FunctionToString
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Integration installed: TryCatch
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Integration installed: Breadcrumbs
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Global Handler attached: onerror
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Global Handler attached: onunhandledrejection
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Integration installed: GlobalHandlers
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Integration installed: LinkedErrors
+[2021.04.14-18.57.52:638][342]LogWebView: Sentry Logger [Log]: Integration installed: UserAgent
+[2021.04.14-18.57.52:638][342]LogWebView: Launcher Integration - Checking for purchase in progress
+[2021.04.14-18.57.53:365][364]LogWebView: react-spring: The "interpolate" function is deprecated in v10 (use "to" instead)
+[2021.04.14-18.57.54:663][403]LogWebView: No platforms found that supports feature application for intent display-update
+[2021.04.14-18.57.55:866][439]LogWebView: No platforms found that supports feature application for intent display-update
+[2021.04.14-18.57.55:866][439]LogWebView: No platforms found that supports feature application for intent display-update
+[2021.04.14-18.57.55:900][440][ToastRouter] RedirectToUrl('/store/es-MX/')
+[2021.04.14-18.57.55:900][440][ToastRouter]    Resolved To: '/store/es-MX/'
+[2021.04.14-18.57.55:900][440][ToastRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.57.55:900][440][ToastRouter]    Navigation Canceled.
+[2021.04.14-18.57.55:900][440][MainRouter]    Navigation Complete.
+[2021.04.14-18.57.56:862][469]LogWebView: MESSAGE [object Object]
+[2021.04.14-18.57.56:993][473]LogWebView: MESSAGE [object Object]
+[2021.04.14-18.58.10:304][872][ToastRouter] RedirectToUrl('/store/es-MX/library')
+[2021.04.14-18.58.10:304][872][ToastRouter]    Resolved To: '/store/es-MX/library'
+[2021.04.14-18.58.10:304][872][ToastRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.58.10:304][872][ToastRouter]    Navigation Canceled.
+[2021.04.14-18.59.28:186][195]FCommunityPortalManagerImpl::RequestDestroyMainWindowOverride
+[2021.04.14-18.59.28:187][195]LogSlate: Request Window 'Iniciador de Epic Games' being destroyed
+[2021.04.14-18.59.28:195][195]LogSlate: Window 'Iniciador de Epic Games' being destroyed
+[2021.04.14-18.59.28:197][195]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.14-18.59.28:237][195][MainRouter] RedirectToUrl('/null')
+[2021.04.14-18.59.28:237][195][MainRouter]    Resolved To: '/null'
+[2021.04.14-18.59.28:237][195][MainRouter]    Best Match: null
+[2021.04.14-18.59.28:237][195][MainRouter]    Navigation Complete.
+[2021.04.14-18.59.28:238][195]LogWebBrowser: Deleting browser for Url=https://www.epicgames.com/store/es-MX/library.
+[2021.04.14-18.59.28:244][195]~SCommunityPortalMainImpl UEPVM:2
+[2021.04.14-18.59.28:246][196]Portal: Destroying User UI Layer
+[2021.04.14-18.59.28:246][196][MainRouter] RedirectToUrl('/null')
+[2021.04.14-18.59.28:246][196][MainRouter]    Resolved To: '/null'
+[2021.04.14-18.59.28:246][196][MainRouter]    Best Match: null
+[2021.04.14-18.59.28:246][196][MainRouter]    Navigation Stopped. Already at location.
+[2021.04.14-18.59.28:246][196][MainRouter]    Navigation Canceled.
+[2021.04.14-18.59.28:247][196][MainRouter] Refresh('/store/es-MX/library')
+[2021.04.14-18.59.28:247][196][MainRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.59.28:247][196][MainRouter]    Navigation Canceled.
+[2021.04.14-18.59.28:247][196]Portal: Destroying User Presentation Layer
+[2021.04.14-18.59.28:247][196]FUnrealEnginePortalViewModelImple_ResetLauncherViewModel: LauncherViewModel is null
+[2021.04.14-18.59.28:248][196]FLauncherViewModelImple: Destroying LauncherViewModel
+[2021.04.14-18.59.28:252][196]Portal: Destroying App UI Layer
+[2021.04.14-18.59.28:252][196][SignInRouter] RedirectToUrl('/null')
+[2021.04.14-18.59.28:252][196][SignInRouter]    Resolved To: '/null'
+[2021.04.14-18.59.28:252][196][SignInRouter]    Best Match: null
+[2021.04.14-18.59.28:252][196][SignInRouter]    Navigation Stopped. Already at location.
+[2021.04.14-18.59.28:252][196][SignInRouter]    Navigation Canceled.
+[2021.04.14-18.59.28:252][196][SignInRouter] Refresh('/null')
+[2021.04.14-18.59.28:252][196][SignInRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.59.28:252][196][SignInRouter]    Navigation Canceled.
+[2021.04.14-18.59.28:252][196]Portal: Destroying App Presentation Layer
+[2021.04.14-18.59.28:252][196]FCommunityPortalManagerImpl_SetUnrealEnginePortalViewModel: UnrealEnginePortalViewModel is null
+[2021.04.14-18.59.28:252][196]FCommunityPortalManagerImpl::SetUnrealEnginePortalViewModel UEPVM:1
+[2021.04.14-18.59.28:252][196]~FPresentationImpl UEPVM:0
+[2021.04.14-18.59.28:252][196]LogSlate: Warning: FontCache flush requested. Reason: Application is being minimized
+[2021.04.14-18.59.28:263][196]LogSlate: Slate font cache was flushed
+[2021.04.14-18.59.32:279][299]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.14-18.59.33:090][333]Portal: Constructing App Presentation Layer
+[2021.04.14-18.59.33:090][333][SignInRouter] Refresh('/null')
+[2021.04.14-18.59.33:090][333][SignInRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.59.33:090][333][SignInRouter]    Navigation Canceled.
+[2021.04.14-18.59.33:090][333]FCommunityPortalManagerImpl::SetUnrealEnginePortalViewModel UEPVM:2
+[2021.04.14-18.59.33:090][333]Portal: Constructing App UI Layer
+[2021.04.14-18.59.33:090][333]Portal: Constructing User Presentation Layer
+[2021.04.14-18.59.33:124][333]FUnrealEnginePortalViewModelImple_UpdateLauncherViewModel: LauncherViewModel is valid
+[2021.04.14-18.59.33:124][333]Portal: Constructing User UI Layer
+[2021.04.14-18.59.33:124][333]SCommunityPortalMainImpl::Construct UEPVM:4
+[2021.04.14-18.59.33:141][333]LogSlate: Request Window '' being destroyed
+[2021.04.14-18.59.33:142][333]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.14-18.59.33:145][333]LogSlate: Request Window '' being destroyed
+[2021.04.14-18.59.33:218][333]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.14-18.59.33:291][333]~SCommunityPortalMainImpl UEPVM:2
+[2021.04.14-18.59.33:293][333]SCommunityPortalMainImpl::Construct UEPVM:4
+[2021.04.14-18.59.33:293][333][MainRouter] GoToUrl('[epic_store]')
+[2021.04.14-18.59.33:293][333][MainRouter]    Resolved To: '/store/es-MX/'
+[2021.04.14-18.59.33:293][333][MainRouter]    Best Match: app
+[2021.04.14-18.59.33:294][333]LogWebBrowser: Creating browser for ContextId=userdomain.
+[2021.04.14-18.59.33:311][333]FCommunityPortalManagerImpl::RequestExit
+[2021.04.14-18.59.33:311][333]FCommunityPortalManagerImpl: Change State CPManagerState_Launch->CPManagerState_PreShutdownCleanup
+[2021.04.14-18.59.33:311][333]LogSlate: Request Window 'Iniciador de Epic Games' being destroyed
+[2021.04.14-18.59.33:313][333]LogSlate: Window 'Iniciador de Epic Games' being destroyed
+[2021.04.14-18.59.33:313][333]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.14-18.59.33:343][334]FCommunityPortalManagerImpl: Change State CPManagerState_PreShutdownCleanup->CPManagerState_Shutdown
+[2021.04.14-18.59.33:343][334]FUnrealEnginePortalViewModelImple_ResetLauncherViewModel: LauncherViewModel is null
+[2021.04.14-18.59.33:366][334]FApplicationImpl::Run Main loop exit. GC_Try:1.287133 GC_Time:2.106278 GC_Skip:0
+[2021.04.14-18.59.33:369][334]Portal: Destroying User UI Layer
+[2021.04.14-18.59.33:369][334][MainRouter]    Canceling in progress navigation. New command issued.
+[2021.04.14-18.59.33:369][334][MainRouter]    Navigation Canceled.
+[2021.04.14-18.59.33:369][334][ToastRouter] RedirectToUrl('/store/es-MX/')
+[2021.04.14-18.59.33:369][334][ToastRouter]    Resolved To: '/store/es-MX/'
+[2021.04.14-18.59.33:369][334][ToastRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.59.33:369][334][ToastRouter]    Navigation Canceled.
+[2021.04.14-18.59.33:369][334][MainRouter] RedirectToUrl('/null')
+[2021.04.14-18.59.33:369][334][MainRouter]    Resolved To: '/null'
+[2021.04.14-18.59.33:369][334][MainRouter]    Best Match: null
+[2021.04.14-18.59.33:369][334]LogWebBrowser: Deleting browser for Url=.
+[2021.04.14-18.59.33:369][334]~SCommunityPortalMainImpl UEPVM:2
+[2021.04.14-18.59.33:369][334][MainRouter]    Navigation Complete.
+[2021.04.14-18.59.33:370][334][MainRouter] Refresh('/store/es-MX/')
+[2021.04.14-18.59.33:370][334][MainRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.59.33:370][334][MainRouter]    Navigation Canceled.
+[2021.04.14-18.59.33:370][334]Portal: Destroying User Presentation Layer
+[2021.04.14-18.59.33:370][334]FLauncherViewModelImple: Destroying LauncherViewModel
+[2021.04.14-18.59.33:375][334]Portal: Destroying User Domain Layer
+[2021.04.14-18.59.33:375][334]LogWebBrowser: Unregistering ContextId=userdomain.
+[2021.04.14-18.59.33:399][334]Portal: Destroying User Data Access Layer
+[2021.04.14-18.59.33:400][334]Portal: Destroying App UI Layer
+[2021.04.14-18.59.33:400][334][SignInRouter] RedirectToUrl('/null')
+[2021.04.14-18.59.33:400][334][SignInRouter]    Resolved To: '/null'
+[2021.04.14-18.59.33:400][334][SignInRouter]    Best Match: null
+[2021.04.14-18.59.33:400][334][SignInRouter]    Navigation Complete.
+[2021.04.14-18.59.33:400][334][SignInRouter] Refresh('/null')
+[2021.04.14-18.59.33:400][334][SignInRouter]    Best Match: invalid - [0] states compared
+[2021.04.14-18.59.33:400][334][SignInRouter]    Navigation Canceled.
+[2021.04.14-18.59.33:400][334]Portal: Destroying App Presentation Layer
+[2021.04.14-18.59.33:400][334]FCommunityPortalManagerImpl_SetUnrealEnginePortalViewModel: UnrealEnginePortalViewModel is null
+[2021.04.14-18.59.33:400][334]FCommunityPortalManagerImpl::SetUnrealEnginePortalViewModel UEPVM:1
+[2021.04.14-18.59.33:400][334]~FPresentationImpl UEPVM:0
+[2021.04.14-18.59.33:400][334]Portal: Destroying App Domain Layer
+[2021.04.14-18.59.33:400][334]LogWebBrowser: Unregistering ContextId=TEMP.
+[2021.04.14-18.59.33:412][334]Portal: Destroying App Data Access Layer
+[2021.04.14-18.59.33:457][334]LogExit: Preparing to exit.
+[2021.04.14-18.59.33:463][334]LogExit: Object subsystem successfully closed.
+[2021.04.14-18.59.33:467][334]BuildPatchServicesModule: Shutting Down
+[2021.04.14-18.59.33:467][334]VeryVerbose: BuildPatchServicesModule: Removing Ticker
+[2021.04.14-18.59.33:467][334]VeryVerbose: BuildPatchServicesModule: Finished shutting down
+[2021.04.14-18.59.33:471][334]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module WidgetCarousel (46)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module PortalUI (44)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module PortalPresentation (42)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module PortalDomain (38)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module PortalDataAccess (36)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module HardwareSurvey (34)
+[2021.04.14-18.59.33:472][334]LogModuleManager: Shutting down and abandoning module AutomationDriver (28)
+[2021.04.14-18.59.33:473][334]LogModuleManager: Shutting down and abandoning module ImageWrapper (26)
+[2021.04.14-18.59.33:473][334]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2021.04.14-18.59.33:473][334]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (22)
+[2021.04.14-18.59.33:473][334]LogModuleManager: Shutting down and abandoning module WebBrowser (20)
+[2021.04.14-18.59.33:733][334]LogModuleManager: Shutting down and abandoning module AnalyticsET (18)
+[2021.04.14-18.59.33:733][334]LogModuleManager: Shutting down and abandoning module XMPP (13)
+[2021.04.14-18.59.33:733][334]LogModuleManager: Shutting down and abandoning module WebSockets (12)
+[2021.04.14-18.59.33:750][334]LogModuleManager: Shutting down and abandoning module HTTP (11)
+[2021.04.14-18.59.34:321][334]LogModuleManager: Shutting down and abandoning module SSL (10)
+[2021.04.14-18.59.34:322][334]LogModuleManager: Shutting down and abandoning module CoreUObject (4)
+[2021.04.14-18.59.34:322][334]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2021.04.14-18.59.34:325][334]LogExit: Exiting.
+[2021.04.14-18.59.34:337][334]Log file closed, 04/14/21 13:59:34

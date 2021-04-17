@@ -1,0 +1,38 @@
+[1FF4:1D30][2021-04-08T14:47:30]i001: Burn v3.8.1128.0, Windows v6.3 (Build 9600: Service Pack 0), path: C:\Program Files (x86)\Epic Games\Launcher\Portal\SelfUpdateStaging\Install\Portal\Extras\Redist\LauncherPrereqSetup_x64.exe, cmdline: '/quiet /log "C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall.log" -burn.unelevated BurnPipe.{C7196241-3CAE-4861-B3D8-72F9DBA76A58} {947D8376-597E-4E66-BBFB-3B2D9D2F0D47} 14144'
+[1FF4:1D30][2021-04-08T14:47:30]i000: Setting string variable 'WixBundleLog' to value 'C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall.log'
+[1FF4:1D30][2021-04-08T14:47:30]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Program Files (x86)\Epic Games\Launcher\Portal\SelfUpdateStaging\Install\Portal\Extras\Redist\LauncherPrereqSetup_x64.exe'
+[1FF4:1D30][2021-04-08T14:47:30]i000: Setting string variable 'WixBundleName' to value 'Launcher Prerequisites (x64)'
+[1FF4:1D30][2021-04-08T14:47:31]i100: Detect begin, 1 packages
+[1FF4:1D30][2021-04-08T14:47:31]i103: Detected related package: {64A0475B-467C-408D-8028-71E6551BDDE7}, scope: PerMachine, version: 1.2.11.0, language: 0 operation: MajorUpgrade
+[1FF4:1D30][2021-04-08T14:47:31]i101: Detected package: PortalPrereqSetup, state: Absent, cached: None
+[1FF4:1D30][2021-04-08T14:47:31]i052: Condition 'VersionNT64' evaluates to true.
+[1FF4:1D30][2021-04-08T14:47:31]i199: Detect complete, result: 0x0
+[1FF4:1D30][2021-04-08T14:47:31]i200: Plan begin, 1 packages, action: Install
+[1FF4:1D30][2021-04-08T14:47:31]i000: Setting string variable 'WixBundleRollbackLog_PortalPrereqSetup' to value 'C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall_0_PortalPrereqSetup_rollback.log'
+[1FF4:1D30][2021-04-08T14:47:31]i000: Setting string variable 'WixBundleLog_PortalPrereqSetup' to value 'C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall_0_PortalPrereqSetup.log'
+[1FF4:1D30][2021-04-08T14:47:31]i201: Planned package: PortalPrereqSetup, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[1FF4:1D30][2021-04-08T14:47:31]i299: Plan complete, result: 0x0
+[1FF4:1D30][2021-04-08T14:47:31]i300: Apply begin
+[3740:1D44][2021-04-08T14:47:31]i000: Caching bundle from: 'C:\Users\andre\AppData\Local\Temp\{43a03b9c-4770-409c-a999-587b60700b63}\.be\LauncherPrereqSetup_x64.exe' to: 'C:\ProgramData\Package Cache\{43a03b9c-4770-409c-a999-587b60700b63}\LauncherPrereqSetup_x64.exe'
+[3740:1D44][2021-04-08T14:47:31]i320: Registering bundle dependency provider: {43a03b9c-4770-409c-a999-587b60700b63}, version: 1.0.0.0
+[3740:1068][2021-04-08T14:47:33]i305: Verified acquired payload: PortalPrereqSetup at path: C:\ProgramData\Package Cache\.unverified\PortalPrereqSetup, moving to: C:\ProgramData\Package Cache\{F9C5C994-F6B9-4D75-B3E7-AD01B84073E9}v1.0.0.0\LauncherPrereqSetup_x64.msi.
+[3740:1D44][2021-04-08T14:47:33]i323: Registering package dependency provider: {F9C5C994-F6B9-4D75-B3E7-AD01B84073E9}, version: 1.0.0.0, package: PortalPrereqSetup
+[3740:1D44][2021-04-08T14:47:33]i301: Applying execute package: PortalPrereqSetup, action: Install, path: C:\ProgramData\Package Cache\{F9C5C994-F6B9-4D75-B3E7-AD01B84073E9}v1.0.0.0\LauncherPrereqSetup_x64.msi, arguments: ''
+[1FF4:1D30][2021-04-08T14:47:38]i319: Applied execute package: PortalPrereqSetup, result: 0x0, restart: None
+[3740:1D44][2021-04-08T14:47:38]i325: Registering dependency: {43a03b9c-4770-409c-a999-587b60700b63} on package provider: {F9C5C994-F6B9-4D75-B3E7-AD01B84073E9}, package: PortalPrereqSetup
+[1FF4:1D30][2021-04-08T14:47:38]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[1FF4:1D30][2021-04-08T14:47:38]i500: Shutting down, exit code: 0x0
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: VersionNT64 = 10.0.0.0
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleAction = 4
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleElevated = 1
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleInstalled = 0
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleLog = C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall.log
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleLog_PortalPrereqSetup = C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall_0_PortalPrereqSetup.log
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleManufacturer = Epic Games, Inc.
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleName = Launcher Prerequisites (x64)
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleOriginalSource = C:\Program Files (x86)\Epic Games\Launcher\Portal\SelfUpdateStaging\Install\Portal\Extras\Redist\LauncherPrereqSetup_x64.exe
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleProviderKey = {43a03b9c-4770-409c-a999-587b60700b63}
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleRollbackLog_PortalPrereqSetup = C:/Users/andre/AppData/Local/EpicGamesLauncher/Saved/Logs/SelfUpdatePrereqInstall_0_PortalPrereqSetup_rollback.log
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleTag = 
+[1FF4:1D30][2021-04-08T14:47:38]i410: Variable: WixBundleVersion = 1.0.0.0
+[1FF4:1D30][2021-04-08T14:47:38]i007: Exit code: 0x0, restarting: No

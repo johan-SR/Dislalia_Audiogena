@@ -1,0 +1,62 @@
+﻿6784> 2021-04-08 14:53:25> Program: Starting Squirrel Updater: --createShortcut Discord.exe --setupIcon C:\Users\andre\AppData\Local\Discord\app.ico
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: About to create shortcuts for Discord.exe, rootAppDir C:\Users\andre\AppData\Local\Discord
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: Creating shortcut for Discord.exe => C:\Users\andre\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc.\Discord.lnk
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: About to save shortcut: C:\Users\andre\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc.\Discord.lnk (target C:\Users\andre\AppData\Local\Discord\Update.exe, workingDir C:\Users\andre\AppData\Local\Discord\app-0.0.309, args --processStart Discord.exe)
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: Creating shortcut for Discord.exe => C:\Users\andre\OneDrive\Escritorio\Discord.lnk
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: About to save shortcut: C:\Users\andre\OneDrive\Escritorio\Discord.lnk (target C:\Users\andre\AppData\Local\Discord\Update.exe, workingDir C:\Users\andre\AppData\Local\Discord\app-0.0.309, args --processStart Discord.exe)
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: fixPinnedExecutables: newCurrentFolder: app-0.0.309
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: fixPinnedExecutables: enumerating path C:\Users\andre\AppData\Roaming\Microsoft\Windows\Start Menu failed: System.UnauthorizedAccessException: Acceso denegado a la ruta de acceso 'C:\Users\andre\AppData\Roaming\Microsoft\Windows\Start Menu\Programas'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileSystemEnumerableIterator`1.AddSearchableDirsToStack(SearchData localSearchData)
+   en System.IO.FileSystemEnumerableIterator`1.MoveNext()
+   en System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   en System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   en System.IO.DirectoryInfo.GetFiles(String searchPattern, SearchOption searchOption)
+   en Squirrel.UpdateManager.ApplyReleasesImpl.fixPinnedExecutables(SemanticVersion newCurrentVersion)
+6784> 2021-04-08 14:53:25> ApplyReleasesImpl: Updating shortcut C:\Users\andre\OneDrive\Escritorio\Discord.lnk
+5296> 2021-04-08 14:53:27> Program: Starting Squirrel Updater: --check https://discord.com/api/updates/stable
+5296> 2021-04-08 14:53:27> Program: Fetching update information, downloading from https://discord.com/api/updates/stable
+5296> 2021-04-08 14:53:27> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+5296> 2021-04-08 14:53:27> CheckForUpdateImpl: Downloading RELEASES file from https://discord.com/api/updates/stable
+5296> 2021-04-08 14:53:27> FileDownloader: Downloading url: https://discord.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.309&arch=amd64
+5296> 2021-04-08 14:53:28> CheckForUpdateImpl: No updates
+10396> 2021-04-08 14:53:43> Program: Starting Squirrel Updater: --check https://discord.com/api/updates/stable
+10396> 2021-04-08 14:53:43> Program: Fetching update information, downloading from https://discord.com/api/updates/stable
+10396> 2021-04-08 14:53:43> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+10396> 2021-04-08 14:53:43> CheckForUpdateImpl: Downloading RELEASES file from https://discord.com/api/updates/stable
+10396> 2021-04-08 14:53:43> FileDownloader: Downloading url: https://discord.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.309&arch=amd64
+10396> 2021-04-08 14:53:43> CheckForUpdateImpl: No updates
+10952> 2021-04-08 16:34:59> Program: Starting Squirrel Updater: --processStart Discord.exe
+10952> 2021-04-08 16:34:59> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+1052> 2021-04-08 17:11:45> Program: Starting Squirrel Updater: --processStart Discord.exe
+1052> 2021-04-08 17:11:45> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+13452> 2021-04-09 10:19:06> Program: Starting Squirrel Updater: --processStart Discord.exe
+13452> 2021-04-09 10:19:06> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+16368> 2021-04-09 19:07:43> Program: Starting Squirrel Updater: --processStart Discord.exe
+16368> 2021-04-09 19:07:43> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+5256> 2021-04-10 22:03:03> Program: Starting Squirrel Updater: --processStart Discord.exe
+5256> 2021-04-10 22:03:03> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+2784> 2021-04-11 18:32:37> Program: Starting Squirrel Updater: --processStart Discord.exe
+2784> 2021-04-11 18:32:37> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+2796> 2021-04-12 17:56:33> Program: Starting Squirrel Updater: --processStart Discord.exe
+2796> 2021-04-12 17:56:33> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+4812> 2021-04-12 18:42:35> Program: Starting Squirrel Updater: --processStart Discord.exe
+4812> 2021-04-12 18:42:35> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+9952> 2021-04-12 20:01:20> Program: Starting Squirrel Updater: --processStart Discord.exe
+9952> 2021-04-12 20:01:20> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+8636> 2021-04-12 22:03:45> Program: Starting Squirrel Updater: --processStart Discord.exe
+8636> 2021-04-12 22:03:45> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+10532> 2021-04-13 00:10:51> Program: Starting Squirrel Updater: --processStart Discord.exe
+10532> 2021-04-13 00:10:51> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+8492> 2021-04-13 17:45:49> Program: Starting Squirrel Updater: --processStart Discord.exe
+8492> 2021-04-13 17:45:49> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+13404> 2021-04-14 12:48:57> Program: Starting Squirrel Updater: --processStart Discord.exe
+13404> 2021-04-14 12:48:57> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+7844> 2021-04-14 17:43:39> Program: Starting Squirrel Updater: --processStart Discord.exe
+7844> 2021-04-14 17:43:39> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+13812> 2021-04-14 23:11:23> Program: Starting Squirrel Updater: --processStart Discord.exe
+13812> 2021-04-14 23:11:23> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+12100> 2021-04-15 17:51:34> Program: Starting Squirrel Updater: --processStart Discord.exe
+12100> 2021-04-15 17:51:34> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 
+16440> 2021-04-16 19:06:09> Program: Starting Squirrel Updater: --processStart Discord.exe
+16440> 2021-04-16 19:06:09> Program: About to launch: 'C:\Users\andre\AppData\Local\Discord\app-1.0.9001\Discord.exe': 

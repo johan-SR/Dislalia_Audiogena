@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    tools:context=".RegistroActivity">
+
+    <EditText
+        android:id="@+id/Numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/IdBotonRegistro"
+        app:layout_constraintTop_toBottomOf="@+id/IdPassw2"
+        tools:layout_editor_absoluteX="86dp" />
+
+    <EditText
+        android:id="@+id/IdCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/IdPassw1"
+        app:layout_constraintTop_toBottomOf="@+id/IdNit"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/bar" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:text="Registro"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-light"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/IdNombreEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:ems="10"
+        android:hint="Nombre de la empresa"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+    <EditText
+        android:id="@+id/IdNit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Nit"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        app:layout_constraintTop_toBottomOf="@+id/IdNombreEmp"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <EditText
+        android:id="@+id/IdPassw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName|textPassword"
+        android:text="Name"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <EditText
+        android:id="@+id/IdPassw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="confirmar clave"
+        android:inputType="textShortMessage|textPersonName|textPassword"
+        android:text="Name"
+        app:layout_constraintTop_toBottomOf="@+id/IdPassw1"
+        tools:layout_editor_absoluteX="86dp" />
+
+    <Button
+        android:id="@+id/IdBotonRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
