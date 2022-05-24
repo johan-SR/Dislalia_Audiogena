@@ -20,39 +20,72 @@ AFRAME.registerComponent('collider', {
                let audio = document.querySelector("#A1");
                audio.play();
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
+               let trabajar = document.querySelector("#trabajarOpc")
+               trabajar.setAttribute("visible", "true")
+               let tradajar = document.querySelector("#tradajarOpc")
+               tradajar.setAttribute("visible", "true")
             },
             'trigger1': () =>{
                let audio = document.querySelector("#A2");
                audio.play();
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
+               let amistad = document.querySelector("#amistadOpc")
+               amistad.setAttribute("visible", "true")
+               let amitad = document.querySelector("#amitadOpc")
+               amitad.setAttribute("visible", "true")
                
             },
             'trigger2': () =>{
                let audio = document.querySelector("#A3");
                audio.play();
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
+               let cobija = document.querySelector("#cobijaOpc")
+               cobija.setAttribute("visible", "true")
+               let codija = document.querySelector("#codijaOpc")
+               codija.setAttribute("visible", "true")
             },
             'trigger3': () =>{
-               let audio = document.querySelector("#A3");
+               let audio = document.querySelector("#A4");
                audio.play();
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
+               let plato = document.querySelector("#PlatoOpc")
+               plato.setAttribute("visible", "true")
+               let plalto = document.querySelector("#PlaltoOpc")
+               plalto.setAttribute("visible", "true")
+            },
+            'trigger4': () =>{
+               let audio = document.querySelector("#A5");
+               audio.play();
+               e.detail.body.el.parentNode.removeChild(e.detail.body.el);
+               let barril = document.querySelector("#BarrilOpc")
+               barril.setAttribute("visible", "true")
+               let bagil = document.querySelector("#BagilOpc")
+               bagil.setAttribute("visible", "true")
+            },
+            'trigger5': () =>{
+               let audio = document.querySelector("#A6");
+               audio.play();
+               e.detail.body.el.parentNode.removeChild(e.detail.body.el);
+               let palabra = document.querySelector("#palabraOpc")
+               palabra.setAttribute("visible", "true")
+               let palabla = document.querySelector("#palablaOpc")
+               palabla.setAttribute("visible", "true")
             }
          }
          triggers[idTrigger] ? triggers[idTrigger](): null;
       });
    }
 })
-s
+
 function empezar(){
    var player = document.querySelector("#player");
    player.setAttribute("position", "0 0 -1");
-   player.setAttribute("sound", "src: #Fondo; autoplay: true");
    var luz = document.querySelector("#luz");
    luz.setAttribute("light", "intensity: 1");
 }
 
-let contador =0;
-let a = aasd;
+let contador = 0;
+
 function bien(){
    let muro = document.querySelector("#muro");
    muro.parentNode.removeChild(muro);
@@ -110,21 +143,59 @@ function malA(){
    amitad.parentNode.removeChild(amitad);
 }
 
-function bienCo1(){
+function bienPla(){
    let muro3 = document.querySelector("#muro3");
    muro3.parentNode.removeChild(muro3);
-   let cobija1 = document.querySelector("#cobijaOpc1")
-   cobija1.parentNode.removeChild(cobija1);
-   let codija1 = document.querySelector("#codijaOpc1")
-   codija1.parentNode.removeChild(codija1);
+   let plato = document.querySelector("#PlatoOpc")
+   plato.parentNode.removeChild(plato);
+   let plalto = document.querySelector("#PlaltoOpc")
+   plalto.parentNode.removeChild(plalto);
    contador += 10;
    console.log(contador)
 }
-function malCo1(){
+function malPla(){
    let muro3 = document.querySelector("#muro3");
    muro3.parentNode.removeChild(muro3);
-   let cobija1 = document.querySelector("#cobijaOpc1")
-   cobija1.parentNode.removeChild(cobija1);
-   let codija1 = document.querySelector("#codijaOpc1")
-   codija1.parentNode.removeChild(codija1);
+   let plato = document.querySelector("#PlatoOpc")
+   plato.parentNode.removeChild(plato);
+   let plalto = document.querySelector("#PlaltoOpc")
+   plalto.parentNode.removeChild(plalto);
+}
+
+function bienBa(){
+   let muro4 = document.querySelector("#muro4");
+   muro4.parentNode.removeChild(muro4);
+   let Barril = document.querySelector("#BarrilOpc")
+   Barril.parentNode.removeChild(Barril);
+   let Bagil = document.querySelector("#BagilOpc")
+   Bagil.parentNode.removeChild(Bagil);
+   contador += 10;
+   console.log(contador)
+}
+function malBa(){
+   let muro4 = document.querySelector("#muro4");
+   muro4.parentNode.removeChild(muro4);
+   let Barril = document.querySelector("#BarrilOpc")
+   Barril.parentNode.removeChild(Barril);
+   let Bagil = document.querySelector("#BagilOpc")
+   Bagil.parentNode.removeChild(Bagil);
+}
+
+function bienPal(){
+   let muro5 = document.querySelector("#muro5");
+   muro5.parentNode.removeChild(muro5);
+   let palabra = document.querySelector("#palabraOpc")
+   palabra.parentNode.removeChild(palabra);
+   let palabla = document.querySelector("#palablaOpc")
+   palabla.parentNode.removeChild(palabla);
+   contador += 10;
+   console.log(contador)
+}
+function malPal(){
+   let muro5 = document.querySelector("#muro5");
+   muro5.parentNode.removeChild(muro5);
+   let palabra = document.querySelector("#palabraOpc")
+   palabra.parentNode.removeChild(palabra);
+   let palabla = document.querySelector("#palablaOpc")
+   palabla.parentNode.removeChild(palabla);
 }

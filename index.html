@@ -20,6 +20,8 @@
         <!-- <audio src="./Resourses/Sounds/musica-fondo.mp3" id="mundoAudio"></audio> -->
     <a-scene light="defaultLightsEnabled: true" inspector physics="restitution: 0;">
         <!--Recursos-->
+
+       
         
         <a-assets>
         <!--Texturas-->         
@@ -27,6 +29,7 @@
             <img src="./Resourses/Environment/tapiztoy.jpg"id="Pared">
             <img src="./Resourses/Environment/piso.jpg" id="Piso">
             <img src="./Resourses/Environment/piso2.jpg" id="Techo">
+            
             
            
             <asset-item id="woody" src ="Resourses/Models/Woody/scene.gltf"></asset-item>
@@ -54,8 +57,12 @@
         </a-assets>
 
         <!--Audios-->
-        <audio id="A1" src="./Resourses/Sounds/trabajar.ogg"></audio>    
-       
+        <audio id="A1" src="./Resourses/Sounds/trabajar.ogg"></audio>  
+        <audio id="A2" src="./Resourses/Sounds/amistad.ogg"></audio>   
+        <audio id="A3" src="./Resourses/Sounds/Cobija.ogg"></audio>   
+        <audio id="A4" src="./Resourses/Sounds/plato.ogg"></audio>   
+        <audio id="A5" src="./Resourses/Sounds/Barril.ogg"></audio>  
+        <audio id="A6" src="./Resourses/Sounds/palabra.ogg"></audio> 
 
         <!--Models-->
         <a-entity gltf-model = "#woody" scale = "1.9 1.9 1.9" position = "-3 0 -22" ></a-entity>
@@ -184,22 +191,44 @@
 
 
         <!--  Opciones -->
-        <a-box id="trabajarOpc" onclick="bien()" position="-8 1.5 -10" rotation ="0 90 0" src="#trabajar" depth="0.1" ></a-box>
-        <a-box id="muro" width="3" height="2" depth="0.1" rotation ="0 90 0" visible="false"  position="-8.4 1.5 -11" static-body></a-box>
-        <a-box id="tradajarOpc" onclick="mal()" position="-8 1.5 -11.5" src="#tradajar"  rotation ="0 90 0" depth="0.1" static-body></a-box>
+        <a-box id="trabajarOpc" onclick="bien()" position="-8 1.5 -10.5" rotation ="0 90 0" src="/Resourses/Environment/Trabajar.png" depth="0.1" visible="false" ></a-box>
+        <a-box id="muro" width="6" height="2" depth="0.1" rotation ="0 90 0" visible="false"  position="-8.4 1.5 -11" static-body></a-box>
+        <a-box id="tradajarOpc" onclick="mal()" position="-8 1.5 -12" rotation ="0 90 0" src="/Resourses/Environment/Tradajar.png"  depth="0.1"visible="false" ></a-box>
+
+        <a-box id="amistadOpc" onclick="bienA()" position="-0.1 1.5 -15" rotation ="0 0 0" src="/Resourses/Environment/amistad.png" depth="0.1" visible="false"></a-box>
+        <a-box id="muro2" width="6" height="2" depth="0.1" rotation ="0 0 0" visible="false"  position="-1.5 1.5 -15.5" static-body ></a-box>
+        <a-box id="amitadOpc" onclick="malA()" position="-2 1.5 -15" rotation ="0 0 0" src="/Resourses/Environment/amitad.png"   depth="0.1" visible="false"></a-box>
+
+        <a-box id="codijaOpc" onclick="malCo()" position="-15 1.5 -10.5" rotation ="0 90 0" src="/Resourses/Environment/Codija.png" depth="0.1" visible="false"></a-box>
+        <a-box id="muro1" width="6" height="2" depth="0.1" rotation ="0 90 0" visible="false"  position="-15.5 1.5 -11" static-body ></a-box>
+        <a-box id="cobijaOpc" onclick="bienCo()" position="-15 1.5 -12" rotation ="0 90 0" src="/Resourses/Environment/Cobija (1).png"  depth="0.1" visible="false"></a-box>
+
+        <a-box id="PlaltoOpc" onclick="malPla()" position="4 1.5 -20.5" rotation ="0 90 0" src="/Resourses/Environment/Plalto.png" depth="0.1"visible="false" ></a-box>
+        <a-box id="muro3" width="6" height="2" depth="0.1" rotation ="0 90 0" visible="false"  position="4.5 1.5 -20.5" static-body  ></a-box>
+        <a-box id="PlatoOpc" onclick="bienPla()" position="4 1.5 -23" rotation ="0 90 0" src="/Resourses/Environment/Plato.png"  depth="0.1" visible="false"></a-box>
+
+        <a-box id="BagilOpc" onclick="malBa()" position="6.5 1.5 -26" rotation ="0 0 0" src="/Resourses/Environment/Baril.png" depth="0.1" visible="false"></a-box>
+        <a-box id="muro4" width="6" height="2" depth="0.1" rotation ="0 0 0" visible="false"  position="7.5 1.5 -26.5" static-body ></a-box>
+        <a-box id="BarrilOpc" onclick="bienBa()" position="8 1.5 -26" rotation ="0 0 0" src="/Resourses/Environment/Barril.png"  depth="0.1" visible="false"></a-box>
+
+        <a-box id="palabraOpc" onclick="bienPal()" position="-20 1.5 -12" rotation ="0 90 0" src="/Resourses/Environment/Palabra.png" depth="0.1" visible="false"></a-box>
+        <a-box id="muro5" width="6" height="2" depth="0.1" rotation ="0 90 0" visible="false"  position="-20.5 1.5 -11.5" static-body ></a-box>
+        <a-box id="palablaOpc" onclick="malPal()" position="-20 1.5 -10.5" rotation ="0 90 0" src="/Resourses/Environment/Palabla.png"   depth="0.1" visible="false"></a-box>
+        
 
        
         <!--Triggers-->
-        <a-box id="trigger" static-body width="3.5" height="0.1" rotation="0 90 0" visible="false" position="-4 0 6.5"></a-box>
-        <a-box id="trigger" static-body width="3.5" height="0.1" rotation="0 0 0" visible="false" position="-3 0 -8.5"></a-box>
-        <a-box id="trigger1" static-body width="3.5" height="0.1" rotation="0 0 0" visible="false" position="3 0 -8.5"></a-box>
-        <a-box id="trigger2" static-body width="3.5" height="0.1" rotation="0 90 0" visible="false" position="-13 0 -12"></a-box>
-        <a-box id="trigger3" static-body width="3.5" height="0.1" rotation="0 0 0" visible="false" position="7 0 -16.5"></a-box>
+        <a-box id="trigger" static-body width="4.5" height="0.1" rotation="0 90 0" visible="false" position="-6 0 -11.5"></a-box>
+        <a-box id="trigger1" static-body width="7" height="0.1" rotation="0 0 0" visible="false" position="-1.5 0 -13"></a-box>
+        <a-box id="trigger2" static-body width="3.5" height="0.1" rotation="0 90 0" visible="false" position="-13 0 -11.5"></a-box>
+        <a-box id="trigger3" static-body width="7" height="0.1" rotation="0 90 0" visible="false" position="2.8 0 -22"></a-box>
+        <a-box id="trigger4" static-body width="4.5" height="0.1" rotation="0 0 0" visible="false" position="7.5 0 -25"></a-box>
+        <a-box id="trigger5" static-body width="4.5" height="0.1" rotation="0 90 0" visible="false" position="-20 0 -11.5"></a-box>
 
-        
+
 
         <!--Jugador-->
-        <a-entity id="player" position="0 0 80" collider movement-controls kinematic-body="radius:0.5" sound="src: #mundoAudio; autoplay: true">
+        <a-entity id="player" position="0 0 80" collider movement-controls kinematic-body="radius:0.5" >
             <a-entity camera look-controls="pointerLockEnabled: true;" position="0 2 0">
                 <a-entity cursor position="0 0 -0.5" geometry="primitive:ring;radiusInner:0.01;radiusOuter:0.016" material="opacity:0.5;shader:flat;transparent:true;color:#ff9" scale="0.8 0.8 0.8" raycaster>
         </a-entity>
